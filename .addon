@@ -1,5 +1,5 @@
 {
-  "Title": "cami",
+  "Title": "Common Admin Mod Interface",
   "Type": "library",
   "Org": "limefruitdev",
   "Ident": "cami",
@@ -23,6 +23,9 @@
       "ReleaseMode": "Release",
       "References": [],
       "DistinctReferences": []
-    }
+    },
+    "Summary": "An s\u0026box implementation of CAMI.",
+    "Description": "This is an implementation of the renowned Garry\u0027s Mod library CAMI (https://github.com/glua/CAMI) for s\u0026box.\n\nIt is not 1:1 with the Garry\u0027s Mod version, many things having been adapted to better fit the environment we work in. For example, default usergroups have been completely removed (and as such also Privilege::MinAccess).\n\nThe majority of this is still a work-in-progress:\n* Access callbacks have not been implemented at all.\n* Documentation is incomplete, especially instructions on using this library.\n* This needs to be tested in a working environment.\n\nContributions are highly welcome.",
+    "Public": true
   }
 }
