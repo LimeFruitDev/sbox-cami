@@ -58,7 +58,7 @@ public static class Access
 		public bool HasAccess { get; private set; }
 
 		/// <summary>
-		///     Whether or not the status is locked (a decision has been made).
+		///     Whether or not the status is locked (when override-rejected).
 		/// </summary>
 		public bool IsLocked { get; private set; }
 
@@ -71,7 +71,6 @@ public static class Access
 			if (IsLocked)
 				return false;
 
-			IsLocked = true;
 			HasAccess = true;
 			return true;
 		}
